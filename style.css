@@ -1,0 +1,47 @@
+:root{
+    --lilas: #9557c2;
+    --azull: #edeff3;
+    --preto: #0a0a0a;
+    --roxo: #be89e2;
+
+}
+ 
+
+body{
+    background-color: var(--roxo);
+    color: var(--preto);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+    background-color: var(--lilas);
+    text-align: center;
+    padding: 1px;
+
+}
+ 
+h1{
+    font-size: 2rem;
+    color: var(--preto);
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: var(--azull);
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+
+}
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0,90);
+    transform: transform(0.1S);
+}
